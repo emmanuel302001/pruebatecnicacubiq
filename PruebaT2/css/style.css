@@ -1,35 +1,41 @@
 #tituloP {
+#tituloP {
     color: white;
     text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 70px;
+}
+body{
+	background-color: #e8eaec;
 }
 .navIndex{
     background-color: #eb4630;
-    background-color:linear-gradient(top, #eb4630, #eb463079);
+	position: sticky;
 }
 .container{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	
 }
 a:link, 
 a:visited {
     color: #ED462F;
     text-decoration: none;
-    display: inline-block;
+    
     transition: all 0.2s;
 }
 
 a:hover,
 a:active {
     color: white;
-    background-color: #ED462F;
-    box-shadow: 0 1rem 2rem rgba(black, .4);
+    background-color: white;
+    box-shadow: 0 2rem 1rem rgba(black, .1);
     transform: rotate(1deg) scale(1.2);
-    padding: 2px;
+    padding: 1px;
 }
 
 .buttonLD {
 	margin: 0 10px;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	border-radius: 5px;
 	border-color: #99d4db;
 	background-color: white;
@@ -49,4 +55,11 @@ a:active {
 }
 .buttonLD:hover .span{
 	left: -10%;
+}
+.row {
+    border:none;
+    border-radius: 2px;
+}
+img{
+	border: none;
 }
